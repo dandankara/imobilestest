@@ -1,0 +1,167 @@
+.ContainerHeader {
+  background: url("../../assets/Image.svg"),
+    linear-gradient(314.72deg, #c86dd7 -1.5%, #7e49c3 39.43%, #5912ac 86.02%);
+  height: 616px;
+}
+
+.NavBarMenu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NavBarMenu img {
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.NavBarMenu a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.ButtonBecome {
+  width: 234px;
+  height: 44px;
+  background: #00c88c;
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.SignInButton {
+  color: #f5f5f5f5;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 32px 0 23px;
+}
+
+.ContainerSection {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.ImageHeader{
+    width: 316px;;
+    height: 290px;
+}
+
+.SectionContent {
+  color: #f5f5f5f5;
+  margin-right: 180px;
+}
+
+.SectionContent h1{
+    font-size: 40px;
+    width: 572px;
+}
+
+.SectionContent p {
+    font-size: 18x;
+    width: 548px;
+    margin: 24px 0 52px 0;
+}
+
+.SectionContent a{
+    display: flex;
+    align-items: center;
+    color: #f5f5f5;
+}
+
+.SectionContent img{
+    margin-right: 16px;
+}
+
+@media (max-width: 1170px) {
+  .ImageHeader {
+    display: none;
+  }
+
+  .LogoSmile {
+  position: relative;
+  margin-left: 16px;
+  margin-right: 0;
+}
+}
+
+@media (max-width: 900px) {
+  .ContainerHeader .NavBarMenu a {
+    display: none;
+  }
+
+  .SectionContent {
+    margin-right: 0;
+  }
+
+}
+
+@media (max-width: 650px) {
+  .ContainerHeader .NavBarMenu .signIn {
+    display: none;
+  }
+
+  .ContainerSection {
+    margin-top: 92px;
+  }
+
+  .SectionContent {
+    width: 100%;
+    margin: 0 10px;
+    text-align: center;
+  }
+
+  .SectionContent h1 {
+    width: 100%;
+  }
+
+  .SectionContent p {
+    width: 100%;
+    margin: 16px 0 78px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .ContainerHeader {
+    background-position: center;
+  } 
+  .DivButtonsHeader .ButtonBecome {
+    margin-right: 16px;
+  }
+
+  .ContainerHeader .NavBarMenu {
+    display: block;
+  }
+
+  .SectionContent a{
+  justify-content: center;
+}
+
+}
+
+@media (max-width: 440px) {
+  .SectionContent h1 {
+    width: 272px;
+    font-size: 28px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+  }
+
+  .SectionContent p {
+    width: 328px;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .SectionContent a {
+    margin-top: 78px;
+    padding-bottom: 90px;
+  }
+
+}

@@ -1,0 +1,119 @@
+.ContainerFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.FooterContent {
+  text-align: center;
+}
+
+.FooterContent h1 {
+  font-size: 28px;
+  color: #3d3d3d;
+  margin-bottom: 16px;
+  margin-top: 80px;
+}
+
+.FooterContent p {
+  margin-bottom: 32px;
+}
+
+.FooterContent button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 304px;
+  height: 68px;
+  border-radius: 4px;
+  background-color: #5e20a4;
+  color: #f5f5f5f5;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.FooterContent button img {
+  margin-right: 21px;
+}
+
+.ButtonDiv p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.ButtonDiv span {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 40px;
+  line-height: 28px;
+}
+
+.FirstLink {
+  display: block;
+  font-size: 16px;
+  color: #5e20a4;
+  margin-top: 24px;
+}
+
+.FooterLinks {
+  width: 1440px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.LogoFooter img {
+  width: 64px;
+  height: 24px;
+  margin-top: 82px;
+}
+
+.FooterLinks .Links {
+  display: flex;
+  margin-top: 82px;
+}
+
+.Links a {
+  margin-left: 29px;
+}
+
+.SocialMedias img {
+  margin-left: 16px;
+  margin-top: 82px;
+}
+
+.ContainerFooter .Copy {
+  color: #3d3d3d;
+  font-size: 12px;
+  opacity: 0.6;
+  padding: 90px 0 32px 0;
+}
+
+@media (max-width: 1262px) {
+  .ContainerFooter .FooterLinks {
+    flex-direction: column;
+  }
+
+  .ContainerFooter {
+      margin: 20px 74px 24px 74px;
+  }
+}
+
+@media(max-width: 900px){
+    .ContainerFooter .Copy{
+        padding: 0 0 24px 0;
+    }
+}
+
+@media(max-width: 460px){
+    .ContainerFooter .FooterLinks{
+        padding-top: 54px;
+    }
+    .ContainerFooter .FooterContent h1{
+        padding: 44px 0 5px 0;
+        font-size: 22px;
+    }
+}
